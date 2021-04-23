@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/codigo.js"></script>
+    <link href="./fontawesome/css/all.css" rel="stylesheet">
+    <link rel="icon" href="./img/angellist-brands.svg">
+    <title>EVA</title>
+</head>
+
+<body>
+    <div id="header" class="row">
+        <h1>Estilos en línea, interno y externo</h1>
+        <i class="fas fa-laptop-code"></i>
+    </div>
+    <ul class="row">
+        <li><a href="#header"><i class="fas fa-arrow-up"></i></a></li>
+        <li><a href="#section-1">Tutorial</a></li>
+        <li><a href="#section-2">Estilo de línea</a></li>
+        <li><a href="#section-3">Estilo interno</a></li>
+        <li><a href="#section-4">Estilo externo</a></li>
+    </ul>
+    <!--section-1-->
+    <div class="row" id="section-1">
+        <div class="column-00">
+            <h2>Tutorial: Estilos en línea, interno y externo</h2>
+        </div>
+        <div class="column-0">
+            <iframe width="100%" height="500px" src="https://www.youtube.com/embed/MzEBxbFYEys" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="row padding flex" id="section-2">
+        <div class="column-1">
+            <h2>Estilo de línea</h2>
+            <p>Estilo en línea (InLine): Utilizando el atributo style.</p>
+        </div>
+        <div class="column-2">
+            <img src="./img/EstiloenLinea.PNG" alt="EstiloenLinea">
+        </div>
+    </div>
+
+    <div class="row padding flex" id="section-3">
+        <div class="column-2">
+            <img src="./img/EstiloInterno.PNG" alt="EstioloInterno">
+        </div>
+        <div class="column-2">
+            <h2>Estilo interno</h2>
+            <p>Estilo interno (Internal): Usando un elemento "style".</p>
+        </div>
+    </div>
+    <div class="row padding flex" id="section-4">
+        <div class="column-1">
+            <h2>Estilo externo</h2>
+            <p>Estilo externo (External): Empleando un archivo CSS externo al documento HTML.</p>
+        </div>
+        <div class="column-2">
+            <img src="./img/EstiloExterno.PNG" alt="EstiloExterno">
+        </div>
+    </div>
+    <div class="row" id="section-5">
+        <div class="column-1">
+            <p>Administra tu trabajo en GitHub</p>
+            <select name="language" id="language" onchange="language()">
+                <option value="ES" selected>Español</option>
+                <option value="EN">English</option>
+            </select>
+        </div>
+    </div>
+</body>
+
+</html>
